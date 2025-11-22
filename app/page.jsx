@@ -225,7 +225,7 @@ export default function HomePage() {
         <div className="vc-brand">
           <div className="vc-brandMark"><span style={{ fontWeight: 700 }}>GV</span></div>
           <div>
-            <h1 className="vc-title">Voice Chat</h1>
+            <h1 className="vc-title">VoiceBot</h1>
             <div className="vc-statusRow">
               <span
                 className={`vc-statusDot ${listening ? "vc-statusDot--on" : "vc-statusDot--off"}`}
