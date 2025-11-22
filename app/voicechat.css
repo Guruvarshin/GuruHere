@@ -175,3 +175,59 @@
 @media (max-width: 860px) {
   .vc-grid { grid-template-columns: 1fr !important; }
 }
+
+@media (max-width: 860px) {
+  .vc-header {
+    grid-template-columns: 1fr;           
+    gap: 10px;
+  }
+  .vc-controlsBar {
+    justify-content: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;                      
+  }
+  .vc-vuWrap { width: 240px; }            
+}
+
+@media (max-width: 640px) {
+  .vc-shell { padding-bottom: 104px; }
+
+  .vc-header {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .vc-controlsBar {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 60;
+    padding: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px solid rgba(255,255,255,.12);
+    background:
+      linear-gradient(180deg, rgba(11,16,32,0.82), rgba(5,7,13,0.94));
+    backdrop-filter: blur(8px);
+  }
+
+  .vc-iconBtn { order: 1; }
+  .vc-cta {
+    order: 2;
+    flex: 1 1 auto;           
+    min-width: 160px;          
+  }
+  .vc-vuWrap {
+    order: 3;
+    width: 100%;              
+  }
+
+  .vc-profileImg { width: 64px; height: 64px; }
+}
+
+@media (max-width: 380px) {
+  .vc-cta { min-width: 140px; }
+  .vc-vuWrap { height: 44px; }
+}

@@ -87,7 +87,7 @@ export default function HomePage() {
     };
 
     recog.onerror = (e) => {
-      if (e?.error === "aborted") return; // benign
+      if (e?.error === "aborted") return; 
       setError(micErrorMessage(e));
     };
 
@@ -129,7 +129,6 @@ export default function HomePage() {
 
     if (runningRef.current) await waitForEnd();
 
-    // preflight permission check
     const micStatus = await getMicPermissionStatus();
     if (micStatus === "denied") {
       setError("Microphone is blocked. Click the mic icon in your browser’s address bar and allow access, then try again.");
@@ -140,7 +139,7 @@ export default function HomePage() {
       window.speechSynthesis?.cancel();
       recog.start();
     } catch (e) {
-      if (e?.name === "InvalidStateError") return; // already guarded
+      if (e?.name === "InvalidStateError") return;
       setError(micErrorMessage(e));
     }
   };
