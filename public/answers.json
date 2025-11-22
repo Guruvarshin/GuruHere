@@ -1,0 +1,54 @@
+{
+    "life story": {
+        "triggers": [
+            "about your life",
+            "about yourself",
+            "who are you",
+            "introduce yourself"
+        ],
+        "answer": "I’m Guru Varshini Balashanmugam, from Kovilpatti, originally from Sivakasi. I’m an AI-integrated web developer who loves creating intelligent, human-centered apps. My journey from a small town to working with cutting-edge AI teams has taught me that persistence can take you anywhere."
+    },
+    "superpower": {
+        "triggers": [
+            "#1 superpower",
+            "strength"
+        ],
+        "answer": "My superpower is problem-solving. I have a knack for spotting patterns in complex challenges and turning them into structured, simple solutions."
+    },
+    "growth areas": {
+        "triggers": [
+            "areas to improve"
+        ],
+        "answer": "I’m currently diving deeper into LLM evaluation pipelines and refining my front-end development skills, I love getting better at what I build."
+    },
+    "misconception": {
+        "triggers": [
+            "misconception",
+            "people think"
+        ],
+        "answer": "People often assume I’m too gentle to lead, but I lead with empathy and discipline, quiet strength goes a long way."
+    },
+    "push boundaries": {
+        "triggers": [
+            "push",
+            "limits",
+            "boundaries"
+        ],
+        "answer": "I set three goals every morning, it’s my way of staying consistent and stretching my limits without burning out."
+    },
+    "belief": {
+        "triggers": [
+            "belief",
+            "philosophy",
+            "quote"
+        ],
+        "answer": "My favorite quote is by Osho: ‘No one is inferior, no one is superior, no one is equal either. Everyone is simply unique and incomparable.’ It reminds me to value individuality, mine and others’."
+    },
+    "hobbies": {
+        "triggers": [
+            "hobbies",
+            "interests"
+        ],
+        "answer": "I love listening to music, painting, and reading, they help me relax and keep my creativity flowing."
+    }
+}
